@@ -1,19 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - Entry point
+ * main - printing lower and upper case alphabet
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char low;
+	int i, j;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-	for (low = 'A'; low <= 'Z'; low++)
-		putchar(low);
-		putchar('\n');
+	for (i = 97; i <= 122; i++)
+	{
+		putchar(i);
+	}
+	for (j = 65; j <= 90; j++)
+	{
+		putchar(j);
+	}
+	putchar('\n');
 	return (0);
 }
