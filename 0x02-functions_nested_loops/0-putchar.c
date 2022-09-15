@@ -6,9 +6,9 @@
  *
  * Return: Always 0 (Success)
  */
-
-char _putchar(char c)
 int main(void)
+
+	char _putchar(char c);
 {
 	putchar("_");
 	putchar("p");
@@ -19,6 +19,5 @@ int main(void)
 	putchar("a");
 	putchar("r");
 	putchar("\n");
-	returtn (0);
+	return (0);
 }
-	
