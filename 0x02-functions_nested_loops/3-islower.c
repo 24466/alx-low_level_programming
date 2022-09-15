@@ -4,7 +4,7 @@
  * @c: integer variable to be checked
  * Return: 1 or 0 depending on the condition
  */
-int _islower(int c);
+int _islower(int c)
 {
 	if (c >= 97 && c < 123)
 	{
