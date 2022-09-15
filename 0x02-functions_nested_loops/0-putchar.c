@@ -6,6 +6,8 @@
  *
  * Return: Always 0 (Success)
  */
+
+char _putchar(char c)
 int main(void)
 {
 	putchar("_");
