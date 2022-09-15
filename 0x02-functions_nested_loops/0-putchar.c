@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - prints putchar followed by a new line.
@@ -6,8 +7,8 @@
  */
 int main(void)
 {
-	char _putchar(char c);
 
+	char _putchar(char c);
 	putchar('_');
 	putchar('p');
 	putchar('u');
