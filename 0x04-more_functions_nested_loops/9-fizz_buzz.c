@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 /**
  * main - program that prints either number
  * or fizz buzz or FizzBuzz
  *
- *
  * Return: returns 0
  */
+
 int main(void)
 {
 	int num = 1;
@@ -36,7 +37,7 @@ int main(void)
 			printf("%d ", num);
 		}
 	}
-	printf("\n");
+	printf('\n');
 
 	return (0);
 }
