@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <main.h>
 
 /**
@@ -9,6 +8,6 @@
 
 void _puts(char *str)
 {
-	printf("%"s, str);
+	printf("%s", str);
 	printf("\n");
 }
