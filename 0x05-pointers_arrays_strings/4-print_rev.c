@@ -18,5 +18,5 @@ char rev_string(char *s)
 		s[i] s[len - i - 1];
 		s[len - i - 1] = temp;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
