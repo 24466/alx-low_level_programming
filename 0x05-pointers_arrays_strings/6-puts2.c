@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * puts2 - prints one char out of 2 string
- * @str: input string
- * Return: no return
+ * puts2 - prints one char out of 2 string.
+ * @str: input string.
+ * Return: Always 0 (Success)
  */
 
 void puts2(char *str)
@@ -18,9 +18,7 @@ void puts2(char *str)
 			break;
 		}
 		if (count % 2 == 0)
-		{
 			_putchar(str[count]);
-			count++;
-		}
+		count++;
 	}
 }
